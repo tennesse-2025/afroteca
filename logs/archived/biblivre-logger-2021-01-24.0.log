@@ -1,0 +1,175 @@
+2021-01-24 10:17:26,513 INFO biblivre.AbstractContainerDatabaseTest [main] Starting container
+2021-01-24 10:17:26,915 INFO org.testcontainers.dockerclient.EnvironmentAndSystemPropertyClientProviderStrategy [main] Found docker client settings from environment
+2021-01-24 10:17:26,916 INFO org.testcontainers.dockerclient.DockerClientProviderStrategy [main] Found Docker environment with Environment variables, system properties and defaults. Resolved dockerHost=unix:///var/run/docker.sock
+2021-01-24 10:17:27,090 INFO org.testcontainers.DockerClientFactory [main] Docker host IP address is localhost
+2021-01-24 10:17:27,116 INFO org.testcontainers.DockerClientFactory [main] Connected to docker: 
+  Server Version: 19.03.11
+  API Version: 1.40
+  Operating System: Ubuntu 20.04 LTS
+  Total Memory: 15826 MB
+2021-01-24 10:17:27,139 WARN org.testcontainers.utility.RegistryAuthLocator [main] Failure when attempting to lookup auth config (dockerImageName: testcontainersofficial/ryuk:0.3.0, configFile: /home/duarte2025/.docker/config.json. Falling back to docker-java default behaviour. Exception message: /home/duarte2025/.docker/config.json (No such file or directory)
+2021-01-24 10:17:30,002 INFO org.testcontainers.images.LoggedPullImageResultCallback [tc-okhttp-stream-224060798] Starting to pull image
+2021-01-24 10:17:30,045 INFO org.testcontainers.images.LoggedPullImageResultCallback [tc-okhttp-stream-224060798] Pulling image layers:  0 pending,  0 downloaded,  0 extracted, (0 bytes/0 bytes)
+2021-01-24 10:17:32,164 INFO org.testcontainers.images.LoggedPullImageResultCallback [tc-okhttp-stream-224060798] Pulling image layers:  2 pending,  1 downloaded,  0 extracted, (485 KB/? MB)
+2021-01-24 10:17:32,922 INFO org.testcontainers.images.LoggedPullImageResultCallback [tc-okhttp-stream-224060798] Pulling image layers:  1 pending,  2 downloaded,  0 extracted, (3 MB/? MB)
+2021-01-24 10:17:33,112 INFO org.testcontainers.images.LoggedPullImageResultCallback [tc-okhttp-stream-224060798] Pulling image layers:  1 pending,  2 downloaded,  1 extracted, (4 MB/? MB)
+2021-01-24 10:17:33,162 INFO org.testcontainers.images.LoggedPullImageResultCallback [tc-okhttp-stream-224060798] Pulling image layers:  0 pending,  3 downloaded,  1 extracted, (5 MB/5 MB)
+2021-01-24 10:17:33,189 INFO org.testcontainers.images.LoggedPullImageResultCallback [tc-okhttp-stream-224060798] Pulling image layers:  0 pending,  3 downloaded,  2 extracted, (5 MB/5 MB)
+2021-01-24 10:17:33,264 INFO org.testcontainers.images.LoggedPullImageResultCallback [tc-okhttp-stream-224060798] Pulling image layers:  0 pending,  3 downloaded,  3 extracted, (5 MB/5 MB)
+2021-01-24 10:17:33,271 INFO org.testcontainers.images.LoggedPullImageResultCallback [tc-okhttp-stream-224060798] Pull complete. 3 layers, pulled in 3s (downloaded 5 MB at 1 MB/s)
+2021-01-24 10:17:33,883 INFO org.testcontainers.DockerClientFactory [main] Ryuk started - will monitor and terminate Testcontainers containers on JVM exit
+2021-01-24 10:17:33,884 INFO org.testcontainers.DockerClientFactory [main] Checking the system...
+2021-01-24 10:17:33,884 INFO org.testcontainers.DockerClientFactory [main] ✔︎ Docker server version should be at least 1.6.0
+2021-01-24 10:17:34,040 INFO org.testcontainers.DockerClientFactory [main] ✔︎ Docker environment should have more than 2GB free disk space
+2021-01-24 10:17:34,050 INFO org.testcontainers.images.RemoteDockerImage [main] Pulling docker image: postgres:11. Please be patient; this may take some time but only needs to be done once.
+2021-01-24 10:17:36,903 INFO org.testcontainers.images.LoggedPullImageResultCallback [tc-okhttp-stream-749100260] Starting to pull image
+2021-01-24 10:17:36,907 INFO org.testcontainers.images.LoggedPullImageResultCallback [tc-okhttp-stream-749100260] Pulling image layers:  0 pending,  0 downloaded,  0 extracted, (0 bytes/0 bytes)
+2021-01-24 10:17:39,427 INFO org.testcontainers.images.LoggedPullImageResultCallback [tc-okhttp-stream-749100260] Pulling image layers: 13 pending,  1 downloaded,  0 extracted, (1 KB/? MB)
+2021-01-24 10:17:41,261 INFO org.testcontainers.images.LoggedPullImageResultCallback [tc-okhttp-stream-749100260] Pulling image layers: 12 pending,  2 downloaded,  0 extracted, (8 MB/? MB)
+2021-01-24 10:17:42,277 INFO org.testcontainers.images.LoggedPullImageResultCallback [tc-okhttp-stream-749100260] Pulling image layers: 11 pending,  3 downloaded,  0 extracted, (16 MB/? MB)
+2021-01-24 10:17:43,620 INFO org.testcontainers.images.LoggedPullImageResultCallback [tc-okhttp-stream-749100260] Pulling image layers: 10 pending,  4 downloaded,  0 extracted, (26 MB/? MB)
+2021-01-24 10:17:44,115 INFO org.testcontainers.images.LoggedPullImageResultCallback [tc-okhttp-stream-749100260] Pulling image layers: 10 pending,  4 downloaded,  1 extracted, (28 MB/? MB)
+2021-01-24 10:17:44,222 INFO org.testcontainers.images.LoggedPullImageResultCallback [tc-okhttp-stream-749100260] Pulling image layers: 10 pending,  4 downloaded,  2 extracted, (29 MB/? MB)
+2021-01-24 10:17:44,270 INFO org.testcontainers.images.LoggedPullImageResultCallback [tc-okhttp-stream-749100260] Pulling image layers: 10 pending,  4 downloaded,  3 extracted, (29 MB/? MB)
+2021-01-24 10:17:44,344 INFO org.testcontainers.images.LoggedPullImageResultCallback [tc-okhttp-stream-749100260] Pulling image layers: 10 pending,  4 downloaded,  4 extracted, (29 MB/? MB)
+2021-01-24 10:17:44,772 INFO org.testcontainers.images.LoggedPullImageResultCallback [tc-okhttp-stream-749100260] Pulling image layers:  9 pending,  5 downloaded,  4 extracted, (33 MB/? MB)
+2021-01-24 10:17:44,780 INFO org.testcontainers.images.LoggedPullImageResultCallback [tc-okhttp-stream-749100260] Pulling image layers:  8 pending,  6 downloaded,  4 extracted, (33 MB/? MB)
+2021-01-24 10:17:44,981 INFO org.testcontainers.images.LoggedPullImageResultCallback [tc-okhttp-stream-749100260] Pulling image layers:  8 pending,  6 downloaded,  5 extracted, (33 MB/? MB)
+2021-01-24 10:17:45,035 INFO org.testcontainers.images.LoggedPullImageResultCallback [tc-okhttp-stream-749100260] Pulling image layers:  8 pending,  6 downloaded,  6 extracted, (33 MB/? MB)
+2021-01-24 10:17:45,470 INFO org.testcontainers.images.LoggedPullImageResultCallback [tc-okhttp-stream-749100260] Pulling image layers:  7 pending,  7 downloaded,  6 extracted, (33 MB/? MB)
+2021-01-24 10:17:45,551 INFO org.testcontainers.images.LoggedPullImageResultCallback [tc-okhttp-stream-749100260] Pulling image layers:  7 pending,  7 downloaded,  7 extracted, (33 MB/? MB)
+2021-01-24 10:17:46,735 INFO org.testcontainers.images.LoggedPullImageResultCallback [tc-okhttp-stream-749100260] Pulling image layers:  6 pending,  8 downloaded,  7 extracted, (33 MB/? MB)
+2021-01-24 10:17:46,800 INFO org.testcontainers.images.LoggedPullImageResultCallback [tc-okhttp-stream-749100260] Pulling image layers:  6 pending,  8 downloaded,  8 extracted, (33 MB/? MB)
+2021-01-24 10:17:47,392 INFO org.testcontainers.images.LoggedPullImageResultCallback [tc-okhttp-stream-749100260] Pulling image layers:  5 pending,  9 downloaded,  8 extracted, (33 MB/? MB)
+2021-01-24 10:17:48,393 INFO org.testcontainers.images.LoggedPullImageResultCallback [tc-okhttp-stream-749100260] Pulling image layers:  4 pending, 10 downloaded,  8 extracted, (40 MB/? MB)
+2021-01-24 10:17:49,280 INFO org.testcontainers.images.LoggedPullImageResultCallback [tc-okhttp-stream-749100260] Pulling image layers:  3 pending, 11 downloaded,  8 extracted, (45 MB/? MB)
+2021-01-24 10:17:50,444 INFO org.testcontainers.images.LoggedPullImageResultCallback [tc-okhttp-stream-749100260] Pulling image layers:  2 pending, 12 downloaded,  8 extracted, (52 MB/? MB)
+2021-01-24 10:17:51,179 INFO org.testcontainers.images.LoggedPullImageResultCallback [tc-okhttp-stream-749100260] Pulling image layers:  1 pending, 13 downloaded,  8 extracted, (57 MB/? MB)
+2021-01-24 10:17:56,786 INFO org.testcontainers.images.LoggedPullImageResultCallback [tc-okhttp-stream-749100260] Pulling image layers:  0 pending, 14 downloaded,  8 extracted, (101 MB/101 MB)
+2021-01-24 10:17:57,842 INFO org.testcontainers.images.LoggedPullImageResultCallback [tc-okhttp-stream-749100260] Pulling image layers:  0 pending, 14 downloaded,  9 extracted, (101 MB/101 MB)
+2021-01-24 10:17:57,904 INFO org.testcontainers.images.LoggedPullImageResultCallback [tc-okhttp-stream-749100260] Pulling image layers:  0 pending, 14 downloaded, 10 extracted, (101 MB/101 MB)
+2021-01-24 10:17:57,958 INFO org.testcontainers.images.LoggedPullImageResultCallback [tc-okhttp-stream-749100260] Pulling image layers:  0 pending, 14 downloaded, 11 extracted, (101 MB/101 MB)
+2021-01-24 10:17:58,006 INFO org.testcontainers.images.LoggedPullImageResultCallback [tc-okhttp-stream-749100260] Pulling image layers:  0 pending, 14 downloaded, 12 extracted, (101 MB/101 MB)
+2021-01-24 10:17:58,053 INFO org.testcontainers.images.LoggedPullImageResultCallback [tc-okhttp-stream-749100260] Pulling image layers:  0 pending, 14 downloaded, 13 extracted, (101 MB/101 MB)
+2021-01-24 10:17:58,103 INFO org.testcontainers.images.LoggedPullImageResultCallback [tc-okhttp-stream-749100260] Pulling image layers:  0 pending, 14 downloaded, 14 extracted, (101 MB/101 MB)
+2021-01-24 10:17:58,108 INFO org.testcontainers.images.LoggedPullImageResultCallback [tc-okhttp-stream-749100260] Pull complete. 14 layers, pulled in 21s (downloaded 101 MB at 4 MB/s)
+2021-01-24 10:17:58,117 INFO org.testcontainers.containers.GenericContainer [main] Creating container for image: postgres:11
+2021-01-24 10:17:58,371 INFO org.testcontainers.containers.GenericContainer [main] Starting container with ID: 6513b701496410b2f6c986482de1a4838510ae7dbf7e21c96bd082b831c37f2c
+2021-01-24 10:17:58,680 INFO org.testcontainers.containers.GenericContainer [main] Container postgres:11 is starting: 6513b701496410b2f6c986482de1a4838510ae7dbf7e21c96bd082b831c37f2c
+2021-01-24 10:17:59,925 INFO org.testcontainers.containers.GenericContainer [main] Container postgres:11 started in PT33.407179S
+2021-01-24 10:17:59,926 INFO biblivre.AbstractContainerDatabaseTest [main] Creating and populating database with default data
+2021-01-24 10:17:59,940 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2021-01-24 10:18:00,010 DEBUG com.zaxxer.hikari.pool.HikariPool [main] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@a68df9
+2021-01-24 10:18:00,011 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-01-24 10:18:00,112 DEBUG com.zaxxer.hikari.pool.HikariPool [HikariPool-1 housekeeper] HikariPool-1 - Pool stats (total=1, active=1, idle=0, waiting=0)
+2021-01-24 10:18:00,134 DEBUG com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator [HikariPool-1 connection adder] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@17fa4181
+2021-01-24 10:18:00,146 DEBUG com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator [HikariPool-1 connection adder] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@193dad0e
+2021-01-24 10:18:00,153 DEBUG com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator [HikariPool-1 connection adder] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1d022af1
+2021-01-24 10:18:00,160 DEBUG com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator [HikariPool-1 connection adder] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5800a735
+2021-01-24 10:18:00,166 DEBUG com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator [HikariPool-1 connection adder] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1db313fd
+2021-01-24 10:18:00,172 DEBUG com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator [HikariPool-1 connection adder] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@69129898
+2021-01-24 10:18:00,183 DEBUG com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator [HikariPool-1 connection adder] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@654b72e9
+2021-01-24 10:18:00,189 DEBUG com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator [HikariPool-1 connection adder] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@382f587a
+2021-01-24 10:18:00,210 DEBUG com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator [HikariPool-1 connection adder] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3d869879
+2021-01-24 10:18:00,211 DEBUG com.zaxxer.hikari.pool.HikariPool [HikariPool-1 connection adder] HikariPool-1 - After adding stats (total=10, active=1, idle=9, waiting=0)
+2021-01-24 10:18:01,273 INFO biblivre.AbstractContainerDatabaseTest [main] Setup complete!
+2021-01-24 10:18:01,293 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-2 - Starting...
+2021-01-24 10:18:01,309 DEBUG com.zaxxer.hikari.pool.HikariPool [main] HikariPool-2 - Added connection org.postgresql.jdbc.PgConnection@7b22ec89
+2021-01-24 10:18:01,310 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-2 - Start completed.
+2021-01-24 10:18:01,410 DEBUG com.zaxxer.hikari.pool.HikariPool [HikariPool-2 housekeeper] HikariPool-2 - Before cleanup stats (total=1, active=0, idle=1, waiting=0)
+2021-01-24 10:18:01,411 DEBUG com.zaxxer.hikari.pool.HikariPool [HikariPool-2 housekeeper] HikariPool-2 - After cleanup  stats (total=1, active=0, idle=1, waiting=0)
+2021-01-24 10:18:01,417 DEBUG com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator [HikariPool-2 connection adder] HikariPool-2 - Added connection org.postgresql.jdbc.PgConnection@759ba384
+2021-01-24 10:18:01,430 DEBUG com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator [HikariPool-2 connection adder] HikariPool-2 - Added connection org.postgresql.jdbc.PgConnection@7b5c4347
+2021-01-24 10:18:01,450 DEBUG com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator [HikariPool-2 connection adder] HikariPool-2 - Added connection org.postgresql.jdbc.PgConnection@7f63c8f4
+2021-01-24 10:18:01,478 DEBUG com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator [HikariPool-2 connection adder] HikariPool-2 - Added connection org.postgresql.jdbc.PgConnection@3a61497c
+2021-01-24 10:18:01,478 DEBUG com.zaxxer.hikari.pool.HikariPool [HikariPool-2 connection adder] HikariPool-2 - After adding stats (total=5, active=0, idle=5, waiting=0)
+2021-01-24 10:40:55,915 INFO biblivre.AbstractContainerDatabaseTest [main] Starting container
+2021-01-24 10:40:55,934 INFO org.testcontainers.dockerclient.DockerClientProviderStrategy [main] Loaded org.testcontainers.dockerclient.EnvironmentAndSystemPropertyClientProviderStrategy from ~/.testcontainers.properties, will try it first
+2021-01-24 10:40:56,272 INFO org.testcontainers.dockerclient.EnvironmentAndSystemPropertyClientProviderStrategy [main] Found docker client settings from environment
+2021-01-24 10:40:56,272 INFO org.testcontainers.dockerclient.DockerClientProviderStrategy [main] Found Docker environment with Environment variables, system properties and defaults. Resolved dockerHost=unix:///var/run/docker.sock
+2021-01-24 10:40:56,406 INFO org.testcontainers.DockerClientFactory [main] Docker host IP address is localhost
+2021-01-24 10:40:56,427 INFO org.testcontainers.DockerClientFactory [main] Connected to docker: 
+  Server Version: 19.03.11
+  API Version: 1.40
+  Operating System: Ubuntu 20.04 LTS
+  Total Memory: 15826 MB
+2021-01-24 10:40:56,454 WARN org.testcontainers.utility.RegistryAuthLocator [main] Failure when attempting to lookup auth config (dockerImageName: testcontainersofficial/ryuk:0.3.0, configFile: /home/duarte2025/.docker/config.json. Falling back to docker-java default behaviour. Exception message: /home/duarte2025/.docker/config.json (No such file or directory)
+2021-01-24 10:40:57,009 INFO org.testcontainers.DockerClientFactory [main] Ryuk started - will monitor and terminate Testcontainers containers on JVM exit
+2021-01-24 10:40:57,010 INFO org.testcontainers.DockerClientFactory [main] Checking the system...
+2021-01-24 10:40:57,010 INFO org.testcontainers.DockerClientFactory [main] ✔︎ Docker server version should be at least 1.6.0
+2021-01-24 10:40:57,119 INFO org.testcontainers.DockerClientFactory [main] ✔︎ Docker environment should have more than 2GB free disk space
+2021-01-24 10:40:57,131 INFO org.testcontainers.containers.GenericContainer [main] Creating container for image: postgres:11
+2021-01-24 10:40:57,165 INFO org.testcontainers.containers.GenericContainer [main] Starting container with ID: d195c65441cb50058b0219ff58d4834bd80c4f1db624f0dbc93be8e394f5cc00
+2021-01-24 10:40:57,495 INFO org.testcontainers.containers.GenericContainer [main] Container postgres:11 is starting: d195c65441cb50058b0219ff58d4834bd80c4f1db624f0dbc93be8e394f5cc00
+2021-01-24 10:40:58,976 INFO org.testcontainers.containers.GenericContainer [main] Container postgres:11 started in PT3.056606S
+2021-01-24 10:40:58,977 INFO biblivre.AbstractContainerDatabaseTest [main] Creating and populating database with default data
+2021-01-24 10:40:58,994 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2021-01-24 10:40:59,057 DEBUG com.zaxxer.hikari.pool.HikariPool [main] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@30865a90
+2021-01-24 10:40:59,058 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-01-24 10:40:59,159 DEBUG com.zaxxer.hikari.pool.HikariPool [HikariPool-1 housekeeper] HikariPool-1 - Pool stats (total=1, active=1, idle=0, waiting=0)
+2021-01-24 10:40:59,185 DEBUG com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator [HikariPool-1 connection adder] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@4c44455c
+2021-01-24 10:40:59,198 DEBUG com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator [HikariPool-1 connection adder] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@4283a2a4
+2021-01-24 10:40:59,207 DEBUG com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator [HikariPool-1 connection adder] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@46bc2e2c
+2021-01-24 10:40:59,212 DEBUG com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator [HikariPool-1 connection adder] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3bea89f
+2021-01-24 10:40:59,218 DEBUG com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator [HikariPool-1 connection adder] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6d3e6311
+2021-01-24 10:40:59,223 DEBUG com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator [HikariPool-1 connection adder] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@32f76a90
+2021-01-24 10:40:59,229 DEBUG com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator [HikariPool-1 connection adder] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@159dffac
+2021-01-24 10:40:59,235 DEBUG com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator [HikariPool-1 connection adder] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@639157d0
+2021-01-24 10:40:59,282 DEBUG com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator [HikariPool-1 connection adder] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@7da98658
+2021-01-24 10:40:59,282 DEBUG com.zaxxer.hikari.pool.HikariPool [HikariPool-1 connection adder] HikariPool-1 - After adding stats (total=10, active=1, idle=9, waiting=0)
+2021-01-24 10:41:00,496 INFO biblivre.AbstractContainerDatabaseTest [main] Setup complete!
+2021-01-24 10:41:00,511 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-2 - Starting...
+2021-01-24 10:41:00,524 DEBUG com.zaxxer.hikari.pool.HikariPool [main] HikariPool-2 - Added connection org.postgresql.jdbc.PgConnection@3a43d133
+2021-01-24 10:41:00,524 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-2 - Start completed.
+2021-01-24 10:41:00,624 DEBUG com.zaxxer.hikari.pool.HikariPool [HikariPool-2 housekeeper] HikariPool-2 - Before cleanup stats (total=1, active=0, idle=1, waiting=0)
+2021-01-24 10:41:00,625 DEBUG com.zaxxer.hikari.pool.HikariPool [HikariPool-2 housekeeper] HikariPool-2 - After cleanup  stats (total=1, active=0, idle=1, waiting=0)
+2021-01-24 10:41:00,633 DEBUG com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator [HikariPool-2 connection adder] HikariPool-2 - Added connection org.postgresql.jdbc.PgConnection@56d48ce6
+2021-01-24 10:41:00,639 DEBUG com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator [HikariPool-2 connection adder] HikariPool-2 - Added connection org.postgresql.jdbc.PgConnection@5813784c
+2021-01-24 10:41:00,648 DEBUG com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator [HikariPool-2 connection adder] HikariPool-2 - Added connection org.postgresql.jdbc.PgConnection@5c2ce796
+2021-01-24 10:41:00,656 DEBUG com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator [HikariPool-2 connection adder] HikariPool-2 - Added connection org.postgresql.jdbc.PgConnection@192e7277
+2021-01-24 10:41:00,656 DEBUG com.zaxxer.hikari.pool.HikariPool [HikariPool-2 connection adder] HikariPool-2 - After adding stats (total=5, active=0, idle=5, waiting=0)
+2021-01-24 11:25:34,055 INFO biblivre.AbstractContainerDatabaseTest [main] Starting container
+2021-01-24 11:25:34,096 INFO org.testcontainers.dockerclient.DockerClientProviderStrategy [main] Loaded org.testcontainers.dockerclient.EnvironmentAndSystemPropertyClientProviderStrategy from ~/.testcontainers.properties, will try it first
+2021-01-24 11:25:34,568 INFO org.testcontainers.dockerclient.EnvironmentAndSystemPropertyClientProviderStrategy [main] Found docker client settings from environment
+2021-01-24 11:25:34,568 INFO org.testcontainers.dockerclient.DockerClientProviderStrategy [main] Found Docker environment with Environment variables, system properties and defaults. Resolved dockerHost=unix:///var/run/docker.sock
+2021-01-24 11:25:34,704 INFO org.testcontainers.DockerClientFactory [main] Docker host IP address is localhost
+2021-01-24 11:25:34,728 INFO org.testcontainers.DockerClientFactory [main] Connected to docker: 
+  Server Version: 19.03.11
+  API Version: 1.40
+  Operating System: Ubuntu 20.04 LTS
+  Total Memory: 15826 MB
+2021-01-24 11:25:34,752 WARN org.testcontainers.utility.RegistryAuthLocator [main] Failure when attempting to lookup auth config (dockerImageName: testcontainersofficial/ryuk:0.3.0, configFile: /home/duarte2025/.docker/config.json. Falling back to docker-java default behaviour. Exception message: /home/duarte2025/.docker/config.json (No such file or directory)
+2021-01-24 11:25:35,401 INFO org.testcontainers.DockerClientFactory [main] Ryuk started - will monitor and terminate Testcontainers containers on JVM exit
+2021-01-24 11:25:35,402 INFO org.testcontainers.DockerClientFactory [main] Checking the system...
+2021-01-24 11:25:35,403 INFO org.testcontainers.DockerClientFactory [main] ✔︎ Docker server version should be at least 1.6.0
+2021-01-24 11:25:35,602 INFO org.testcontainers.DockerClientFactory [main] ✔︎ Docker environment should have more than 2GB free disk space
+2021-01-24 11:25:35,640 INFO org.testcontainers.containers.GenericContainer [main] Creating container for image: postgres:11
+2021-01-24 11:25:35,733 INFO org.testcontainers.containers.GenericContainer [main] Starting container with ID: fe94b55ebec334152d8ebcdc79c5e7f5600a7913058b91823bb22892d5622068
+2021-01-24 11:25:36,187 INFO org.testcontainers.containers.GenericContainer [main] Container postgres:11 is starting: fe94b55ebec334152d8ebcdc79c5e7f5600a7913058b91823bb22892d5622068
+2021-01-24 11:25:38,064 INFO org.testcontainers.containers.GenericContainer [main] Container postgres:11 started in PT3.992221S
+2021-01-24 11:25:38,064 INFO biblivre.AbstractContainerDatabaseTest [main] Creating and populating database with default data
+2021-01-24 11:25:38,079 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2021-01-24 11:25:38,170 DEBUG com.zaxxer.hikari.pool.HikariPool [main] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@30865a90
+2021-01-24 11:25:38,172 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-01-24 11:25:38,272 DEBUG com.zaxxer.hikari.pool.HikariPool [HikariPool-1 housekeeper] HikariPool-1 - Pool stats (total=1, active=1, idle=0, waiting=0)
+2021-01-24 11:25:38,286 DEBUG com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator [HikariPool-1 connection adder] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@19de5fa6
+2021-01-24 11:25:38,291 DEBUG com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator [HikariPool-1 connection adder] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1719b2ed
+2021-01-24 11:25:38,299 DEBUG com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator [HikariPool-1 connection adder] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@132634d6
+2021-01-24 11:25:38,308 DEBUG com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator [HikariPool-1 connection adder] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5624b8d6
+2021-01-24 11:25:38,314 DEBUG com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator [HikariPool-1 connection adder] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3d6cfedb
+2021-01-24 11:25:38,319 DEBUG com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator [HikariPool-1 connection adder] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6738ad41
+2021-01-24 11:25:38,325 DEBUG com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator [HikariPool-1 connection adder] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@459ab5f4
+2021-01-24 11:25:38,331 DEBUG com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator [HikariPool-1 connection adder] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@360b4799
+2021-01-24 11:25:38,335 DEBUG com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator [HikariPool-1 connection adder] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6ccbeda5
+2021-01-24 11:25:38,335 DEBUG com.zaxxer.hikari.pool.HikariPool [HikariPool-1 connection adder] HikariPool-1 - After adding stats (total=10, active=1, idle=9, waiting=0)
+2021-01-24 11:25:40,026 INFO biblivre.AbstractContainerDatabaseTest [main] Setup complete!
+2021-01-24 11:25:40,074 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-2 - Starting...
+2021-01-24 11:25:40,096 DEBUG com.zaxxer.hikari.pool.HikariPool [main] HikariPool-2 - Added connection org.postgresql.jdbc.PgConnection@3a43d133
+2021-01-24 11:25:40,097 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-2 - Start completed.
+2021-01-24 11:25:40,197 DEBUG com.zaxxer.hikari.pool.HikariPool [HikariPool-2 housekeeper] HikariPool-2 - Before cleanup stats (total=1, active=0, idle=1, waiting=0)
+2021-01-24 11:25:40,200 DEBUG com.zaxxer.hikari.pool.HikariPool [HikariPool-2 housekeeper] HikariPool-2 - After cleanup  stats (total=1, active=0, idle=1, waiting=0)
+2021-01-24 11:25:40,247 DEBUG com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator [HikariPool-2 connection adder] HikariPool-2 - Added connection org.postgresql.jdbc.PgConnection@617264a2
+2021-01-24 11:25:40,263 DEBUG com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator [HikariPool-2 connection adder] HikariPool-2 - Added connection org.postgresql.jdbc.PgConnection@6fb586fc
+2021-01-24 11:25:40,269 DEBUG com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator [HikariPool-2 connection adder] HikariPool-2 - Added connection org.postgresql.jdbc.PgConnection@6b8a0fd2
+2021-01-24 11:25:40,287 DEBUG com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator [HikariPool-2 connection adder] HikariPool-2 - Added connection org.postgresql.jdbc.PgConnection@2e888cc7
+2021-01-24 11:25:40,288 DEBUG com.zaxxer.hikari.pool.HikariPool [HikariPool-2 connection adder] HikariPool-2 - After adding stats (total=5, active=0, idle=5, waiting=0)
